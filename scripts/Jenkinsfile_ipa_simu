@@ -1,0 +1,64 @@
+#!groovy​
+
+ddWithChatMessage {
+  withCredentials(
+    [usernamePassword(
+      credentialsId: 'Expo',
+      passwordVariable: 'EXP_PASSWORD',
+      usernameVariable: 'EXP_USERNAME'
+    ),
+    usernamePassword(
+      credentialsId: 'nexus',
+      usernameVariable: 'NEXUS_U',
+      passwordVariable: 'NEXUS_P'
+    ),
+    string(credentialsId: 'circlecitoken', variable: 'CIRCLECI_TOKEN')]) {
+      return doBuild()
+    }
+}
+
+def doBuild() {
+  node("em-expjs") {
+    def externalMethod
+    String urlArtifact
+
+    stage('Checkout') {
+      checkout scm
+      externalMethod = load("scripts/externalMethod.groovy")
+    }
+
+    stage('Configure') {
+      env.EXP_ENV = externalMethod.getEnvFromBranch(scm.branches[0].name, env.EXP_ENV)
+      sh "yarn copyEnv"
+    }
+
+    stage('Install') {
+      sh "yarn install"
+    }
+
+    timeout(30) {
+      stage('Build') {
+        sh "yarn build-ipa-simu"
+      }
+    }
+
+    stage('Archive') {
+      urlArtifact = externalMethod.shell("exptool url:artifact")
+      sh "curl -o ./docdok-app-${env.EXP_ENV}.tar.gz $urlArtifact"
+      String endpoint = 'https://nexus3.ocroute.e-medicus.tech/repository/docdok-binaries/'
+      sh "curl -u '$NEXUS_U:$NEXUS_P' --upload-file docdok-app-${env.EXP_ENV}.tar.gz $endpoint"
+    }
+
+    stage('Notify') {
+      sh "yarn expo:logout"
+      return externalMethod.notifyTeam(
+        "New mobile iOS simulator app build: <br/><a href='https://$NEXUS_U:$NEXUS_P@nexus3.ocroute.e-medicus.tech/repository/docdok-binaries/docdok-app-${env.EXP_ENV}.tar.gz'>Download App for simulator</a>",
+        env.EXP_ENV,
+        env.EXP_USERNAME,
+        env.BUILD_NUMBER,
+        false
+      )
+    }
+
+  }
+}

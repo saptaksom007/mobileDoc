@@ -1,0 +1,137 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ChatBotMessage/> render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "transparent",
+      "borderRadius": 10,
+      "width": 535.7142857142858,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgb(218, 239, 255)",
+          "borderColor": "#fff",
+          "borderRadius": 5,
+          "borderWidth": 2,
+          "height": 30,
+          "justifyContent": "center",
+          "left": -1,
+          "top": 10,
+          "width": 30,
+          "zIndex": 1,
+        },
+        undefined,
+        Object {
+          "left": 506.7142857142858,
+        },
+      ]
+    }
+  />
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgb(218, 239, 255)",
+          "borderTopRightRadius": 5,
+          "marginVertical": 1,
+          "paddingHorizontal": 7,
+          "paddingVertical": 12,
+        },
+        Object {
+          "borderTopLeftRadius": 5,
+          "borderTopRightRadius": 0,
+        },
+      ]
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "TitilliumWeb-Regular",
+            "fontSize": 17.5,
+            "lineHeight": 22,
+            "overflow": "visible",
+          },
+          Object {
+            "color": "rgba(27, 106, 158, 0.85)",
+            "fontFamily": "TitilliumWeb-SemiBold",
+            "fontSize": 18.125,
+            "lineHeight": 22,
+          },
+          Object {
+            "color": "rgba(95, 95, 95, 0.87)",
+            "fontFamily": "TitilliumWeb-SemiBold",
+            "textAlign": "left",
+          },
+        ]
+      }
+    >
+      title test
+    </Text>
+  </View>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "rgb(218, 239, 255)",
+          "marginBottom": 1,
+          "padding": 7,
+        },
+        Object {
+          "borderBottomLeftRadius": 5,
+          "borderBottomRightRadius": 5,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flexDirection": "row",
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        onPress={[Function]}
+        style={
+          Array [
+            Object {
+              "fontFamily": "TitilliumWeb-Regular",
+              "fontSize": 17.5,
+              "lineHeight": 22,
+              "overflow": "visible",
+            },
+            Object {
+              "color": "rgba(27, 106, 158, 0.85)",
+              "fontSize": 17.5,
+              "lineHeight": 21,
+            },
+            Array [
+              Object {
+                "color": "rgba(95, 95, 95, 0.87)",
+                "paddingBottom": 2,
+                "paddingTop": 4,
+              },
+              undefined,
+            ],
+          ]
+        }
+      >
+        [no item subtitle]
+         
+      </Text>
+    </View>
+  </View>
+</View>
+`;

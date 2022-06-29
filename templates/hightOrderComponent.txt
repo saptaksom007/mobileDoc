@@ -1,0 +1,19 @@
+import React, { Component } from 'react'
+import hoistNonReactStatic from 'hoist-non-react-statics'
+
+interface Props {}
+
+interface State {}
+
+function {{name}}(ComposedComponent) {
+  class Enhance extends Component<Props, State> {
+
+    render() {
+      return <ComposedComponent {...this.props} />
+    }
+  }
+  hoistNonReactStatic(Enhance, ComposedComponent)
+  return Enhance
+}
+
+export default {{name}}

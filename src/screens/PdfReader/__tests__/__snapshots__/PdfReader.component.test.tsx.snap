@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PdfReader/> render correctly 1`] = `
+<RCTSafeAreaView
+  emulateUnlessSupported={true}
+  style={
+    Object {
+      "backgroundColor": "#ecf0f1",
+      "flex": 1,
+    }
+  }
+>
+  <rn-pdf-reader-js
+    customStyle={
+      Object {
+        "readerContainerZoomContainer": Object {
+          "opacity": 0,
+        },
+        "readerContainerZoomContainerButton": Object {
+          "opacity": 0,
+        },
+      }
+    }
+    onError={[Function]}
+    source={
+      Object {
+        "base64": "",
+        "uri": undefined,
+      }
+    }
+    withPinchZoom={true}
+    withScroll={true}
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ccc",
+        "borderRadius": 25,
+        "height": 50,
+        "justifyContent": "center",
+        "left": 0,
+        "marginLeft": 5,
+        "marginTop": 49,
+        "opacity": 0.7,
+        "position": "absolute",
+        "top": 0,
+        "width": 50,
+      }
+    }
+  />
+</RCTSafeAreaView>
+`;

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Logo/> render correctly 1`] = `
+<View
+  style={Object {}}
+>
+  <Image
+    source={1}
+    style={
+      Array [
+        Object {
+          "resizeMode": "contain",
+          "width": 150,
+        },
+        Object {
+          "height": 61.5,
+        },
+      ]
+    }
+  />
+</View>
+`;

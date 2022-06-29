@@ -1,0 +1,71 @@
+version: 2
+jobs:
+  build-and-test:
+    macos:
+      xcode: '10.2.0'
+    environment:
+      FL_OUTPUT_DIR: output
+      HOMEBREW_NO_AUTO_UPDATE: 1
+      HOMEBREW_NO_INSTALL_CLEANUP: 1
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - v2-dependencies-{{ .Branch }}-{{ checksum "yarn.lock" }}
+            - v2-dependencies-
+      - run:
+          name: Get wix brew
+          command: brew tap wix/brew
+      - run:
+          name: Install applesimutils
+          command: brew install applesimutils
+      - run:
+          name: Install detox-cli
+          command: yarn global add detox-cli
+      - run:
+          name: Yarn Install
+          command: yarn install
+      - run:
+          name: Prepare detox
+          command: detox clean-framework-cache && detox build-framework-cache
+      - run:
+          name: Start Expo
+          command: ./scripts/startExpCI
+          background: true
+      - run:
+          name: Check
+          command: yarn e2e
+      - run:
+          name: Copy e2e env
+          command: cp ./scripts/environments/env.e2e.test env.ts
+      - store_artifacts:
+          path: ./e2e/screenshots
+      - save_cache:
+          paths:
+            - node_modules
+            - ~/.cache/yarn
+            - ./e2e/docdok.app
+          key: v2-dependencies-{{ .Branch }}-{{ checksum "yarn.lock" }}
+      - run:
+          name: e2e report
+          command: ./scripts/slack_e2e_report.js
+
+workflows:
+  version: 2
+  end-to-end-tests:
+    jobs:
+      - build-and-test
+    filters:
+      branches:
+        only:
+          - develop
+  nightly:
+    triggers:
+      - schedule:
+          cron: '0 0 * * *'
+          filters:
+            branches:
+              only:
+                - develop
+    jobs:
+      - build-and-test

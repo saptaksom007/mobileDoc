@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "870336077916",
+    "firebase_url": "https://docdok-health.firebaseio.com",
+    "project_id": "docdok-health",
+    "storage_bucket": "docdok-health.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870336077916:android:dd02a3dded0f43b1",
+        "android_client_info": {
+          "package_name": "ch.health.docdok"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "870336077916-5hcf5obtp06ljj5htdhfol380d3h99cd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCczPuPMIqYMXENN2vOz-9cvk66_cJ0j3o"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AppointmentsList/> render correctly 1`] = `
+Array [
+  <View
+    style={
+      Array [
+        Object {
+          "marginBottom": 20,
+          "padding": 12,
+        },
+        Object {
+          "height": 60,
+          "marginTop": -8,
+        },
+        Object {
+          "backgroundColor": "#8950b6",
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "justifyContent": "center",
+          "paddingTop": 12,
+        }
+      }
+    >
+      <Text
+        style={
+          Object {
+            "color": "#fff",
+          }
+        }
+      >
+        appointmentslist.subtitle
+      </Text>
+    </View>
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "borderRadius": 30,
+          "elevation": 5,
+          "height": 60,
+          "justifyContent": "center",
+          "left": 24,
+          "opacity": 1,
+          "position": "absolute",
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 0.5,
+            "width": 0.5,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 0.5,
+          "top": 18,
+          "width": 60,
+        }
+      }
+    />
+  </View>,
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "height": 1294,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      onPress={[Function]}
+      style={
+        Array [
+          Object {
+            "fontFamily": "TitilliumWeb-Regular",
+            "fontSize": 17.5,
+            "lineHeight": 22,
+            "overflow": "visible",
+          },
+          Object {
+            "color": "rgba(27, 106, 158, 0.85)",
+            "fontSize": 17.5,
+            "lineHeight": 21,
+          },
+          Object {
+            "color": "#999",
+            "marginTop": -40,
+          },
+        ]
+      }
+    >
+      global.empty
+    </Text>
+  </View>,
+]
+`;

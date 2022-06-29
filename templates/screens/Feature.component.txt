@@ -1,0 +1,37 @@
+import React, { Component } from 'react'
+import { Text, View } from 'react-native'
+import { connect } from 'react-redux'
+// import Actions from './{{ properCase name }}.actions'
+import { StyleSheet } from 'react-native'
+
+
+
+interface Props {}
+
+interface State {}
+
+export const {{ properCase name }} = (props: Props) => {
+  // const { dispatch } = this.props
+  return (
+    <View style={styles.container}>
+      <Text>
+        {{name}} view
+      </Text>
+    </View>
+  )
+}
+
+const styles = default StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+})
+
+function select(): object {
+  return {}
+}
+
+export default connect(select)({{ properCase name }})

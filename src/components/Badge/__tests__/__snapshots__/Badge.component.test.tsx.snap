@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Badge/> render correctly 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#e74c3c",
+        "borderRadius": 12.5,
+        "height": 25,
+        "justifyContent": "center",
+        "width": 25,
+        "zIndex": 1000,
+      },
+      Object {
+        "borderRadius": 5,
+        "height": 10,
+        "width": 10,
+      },
+      undefined,
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontSize": 15,
+          "lineHeight": 18,
+        },
+        Array [
+          Object {
+            "backgroundColor": "transparent",
+            "borderRadius": 12.5,
+            "color": "#fff",
+            "fontSize": 15,
+            "height": 25,
+            "lineHeight": 25,
+            "textAlign": "center",
+            "width": 25,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    1
+  </Text>
+</View>
+`;

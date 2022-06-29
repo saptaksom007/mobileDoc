@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<AuthLoading/> render correctly 1`] = `
+<Loader
+  info="AuthLoading"
+  withLogo={true}
+/>
+`;

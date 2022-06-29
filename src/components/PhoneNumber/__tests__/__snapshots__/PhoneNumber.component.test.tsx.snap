@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhoneNumber/> render correctly 1`] = `
+Array [
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontSize": 16.875,
+          "lineHeight": 20,
+        },
+        Object {
+          "fontSize": 15,
+          "lineHeight": 30,
+        },
+      ]
+    }
+  >
+       
+  </Text>,
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    onLongPress={[Function]}
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontSize": 16.875,
+          "lineHeight": 20,
+        },
+        Object {
+          "fontSize": 16,
+          "lineHeight": 35,
+          "textDecorationLine": "underline",
+        },
+      ]
+    }
+  >
+    0300000000
+  </Text>,
+]
+`;

@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Options/> render correctly 1`] = `
+<View>
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontFamily": "TitilliumWeb-SemiBold",
+          "fontSize": 18.125,
+          "lineHeight": 22,
+        },
+        Object {
+          "color": "#363c40",
+          "fontFamily": "TitilliumWeb-Regular",
+          "marginLeft": 10,
+        },
+      ]
+    }
+  >
+    test
+  </Text>
+  none
+</View>
+`;

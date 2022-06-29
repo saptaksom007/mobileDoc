@@ -1,0 +1,60 @@
+diff --git a/node_modules/common-docdok/lib/domain/messaging/sagas/attachments.js b/node_modules/common-docdok/lib/domain/messaging/sagas/attachments.js
+index f73cbd3..3f448d6 100644
+--- a/node_modules/common-docdok/lib/domain/messaging/sagas/attachments.js
++++ b/node_modules/common-docdok/lib/domain/messaging/sagas/attachments.js
+@@ -46,7 +46,7 @@ function* getMediaResource(action) {
+         else {
+             yield effects_1.put(actions_1.messagingActions.getMediaResourceFailed(new Error('could not find resource in the cache')));
+         }
+-        yield effects_1.call(Cache.prune);
++        // yield effects_1.call(Cache.prune);
+     }
+     catch (error) {
+         yield effects_1.put(actions_1.messagingActions.getMediaResourceFailed(error));
+diff --git a/node_modules/common-docdok/lib/domain/messaging/sagas/messages.js b/node_modules/common-docdok/lib/domain/messaging/sagas/messages.js
+index bf4b39e..e89b427 100644
+--- a/node_modules/common-docdok/lib/domain/messaging/sagas/messages.js
++++ b/node_modules/common-docdok/lib/domain/messaging/sagas/messages.js
+@@ -31,7 +31,7 @@ function* loadMessagesGen(action) {
+             latestSequenceNo = getMaxSequenceNo(conversation.messages);
+         }
+         const secret = yield effects_1.select(getSecret, conversationId);
+-        const result = yield effects_1.call(api_1.default.getMessages, conversationId, secret, latestSequenceNo);
++        const result = yield effects_1.call(api_1.default.getMessagePage, conversationId, secret, 0);
+         const messages = result.data;
+         yield effects_1.put(actions_1.messagingActions.loadMessagesSucceeded(messages));
+     }
+diff --git a/node_modules/common-docdok/lib/domain/messaging/sagas/utils.js b/node_modules/common-docdok/lib/domain/messaging/sagas/utils.js
+index 48b84c1..c52aaf2 100644
+--- a/node_modules/common-docdok/lib/domain/messaging/sagas/utils.js
++++ b/node_modules/common-docdok/lib/domain/messaging/sagas/utils.js
+@@ -2,21 +2,13 @@
+ Object.defineProperty(exports, "__esModule", { value: true });
+ exports.pageSize = 20;
+ function getPagesToLoad(messages) {
+-    const minSequenceNo = Math.min.apply(null, messages.map(m => m.sequenceNo));
+-    const maxSequenceNo = Math.max.apply(null, messages.map(m => m.sequenceNo));
+-    const maxMsgNr = Math.abs(minSequenceNo - maxSequenceNo) + 1;
+-    const diff = maxMsgNr % exports.pageSize;
+-    const currentPage = (maxMsgNr - diff) / exports.pageSize;
+-    const pagesToLoad = [];
+-    if (minSequenceNo > 0) {
+-        if (diff > 0) {
+-            pagesToLoad.push(currentPage);
+-        }
+-        if (minSequenceNo - diff > 0) {
+-            pagesToLoad.push(currentPage + 1);
+-        }
+-    }
+-    return pagesToLoad;
++  const noMessagesLoaded = messages.length
++  const highestPage = Math.floor(noMessagesLoaded / exports.pageSize)
++  const pagesToLoad = []
++  if (messages[0].sequenceNo > 0) {
++    pagesToLoad.push(highestPage)
++  }
++  return pagesToLoad
+ }
+ exports.getPagesToLoad = getPagesToLoad;
+ //# sourceMappingURL=utils.js.map
+\ No newline at end of file

@@ -1,0 +1,204 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookAppointment/> render correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <RCTScrollView
+    contentContainerStyle={Object {}}
+    keyboardShouldPersistTaps="never"
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 7,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontFamily": "TitilliumWeb-SemiBold",
+                "fontSize": 18.125,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#363c40",
+                "fontFamily": "TitilliumWeb-Regular",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          bookappointment.preferredDate
+        </Text>
+        none
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 7,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontFamily": "TitilliumWeb-SemiBold",
+                "fontSize": 18.125,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#363c40",
+                "fontFamily": "TitilliumWeb-Regular",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          bookappointment.preferredDayOfWeek
+        </Text>
+        none
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 7,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontFamily": "TitilliumWeb-SemiBold",
+                "fontSize": 18.125,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#363c40",
+                "fontFamily": "TitilliumWeb-Regular",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          bookappointment.preferredTimeOfDay
+        </Text>
+        none
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 7,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontFamily": "TitilliumWeb-SemiBold",
+                "fontSize": 18.125,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#363c40",
+                "fontFamily": "TitilliumWeb-Regular",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          bookappointment.preferredDoctor
+        </Text>
+        none
+      </View>
+      <View
+        style={
+          Object {
+            "paddingVertical": 7,
+          }
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontFamily": "TitilliumWeb-SemiBold",
+                "fontSize": 18.125,
+                "lineHeight": 22,
+              },
+              Object {
+                "color": "#363c40",
+                "fontFamily": "TitilliumWeb-Regular",
+                "marginLeft": 10,
+              },
+            ]
+          }
+        >
+          bookappointment.reasonForAppointment
+        </Text>
+      </View>
+      none
+    </View>
+  </RCTScrollView>
+</View>
+`;

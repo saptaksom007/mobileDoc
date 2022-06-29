@@ -1,0 +1,469 @@
+{
+  "global": {
+    "name": "docdok.health",
+    "notitle": "No title",
+    "empty": "No entries",
+    "undefined": "Not defined",
+    "refresh": "Refresh",
+    "help": "Help",
+    "cancel": "Cancel",
+    "yes": "Yes",
+    "no": "No",
+    "update": "Installing a new version of docdok..."
+  },
+  "tech": {
+    "clearStorage": {
+      "title": "Clear Storage",
+      "text": "Do you want to clear the local storage? ie. if you want to connect with another user."
+    }
+  },
+  "error": {
+    "default": "We are sorry but an error has occurred.",
+    "outdatedApp": "Please click below to go to the appstore to update the docdok app. After updating, please close the app and then restart it.",
+    "internalServerError": "We are sorry but an error has occurred.",
+    "deviceNotSupported": "We are not supported your device yet",
+    "internetConnectionLost": "Internet connection lost, please try to connect again",
+    "noDoctor": {
+      "intro": "Login for doctors to the docdok mobile app is not yet supported.",
+      "android": "To login to docdok from the web, either remove the docdok mobile app or change App Link settings as follows: Settings > Apps > docdok > Set as Default > Go to supported URLs > choose \"In other app\"",
+      "ios": "To login to docdok from the web remove the docdok mobile app.",
+      "beforeLink": "Please login on the web at:"
+    }
+  },
+  "terms": {
+    "title": "Terms and conditions",
+    "agree": "Confirm",
+    "decline": "Decline",
+    "close": "Close",
+    "changed": "Please accept the new terms and conditions",
+    "checkboxLabel": "I have read the terms of use and the privacy policy and I agree to them.",
+    "checkboxAlert": "Please confirm you have read agree to the terms and conditions",
+    "consent": "With my consent, I expressly agree to the storage of my health data in the EU and thus outside Switzerland.",
+    "consentLink": "More information can be found in the privacy policy section."
+  },
+  "calendar": {
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "today": "Today"
+  },
+  "alert": {
+    "notImplemented": "Not implemented",
+    "sessionHasExpired": {
+      "title": "Session has expired!",
+      "body": "Your session has expired, please login again.",
+      "button": "Login"
+    },
+    "shouldBeLoggedIn": "You must be logged in.",
+    "notification": {
+      "title": "Notifications are off",
+      "text": "You won't receive any notifications from your doctor. Do you want to turn notifications on?"
+    }
+  },
+  "login": {
+    "headerIconLabel": "Log in",
+    "errors": {
+      "getMe": "Sorry, an error occurred while logging in docdok.health.",
+      "retrieveTokens": "Sorry, an error occurred during authentification. Please try again.",
+      "getLimitedAccessToken": "Sorry, an error occurred during authentification. Please try again."
+    }
+  },
+  "chat": {
+    "composer": {
+      "placeholder": "Type a message...",
+      "readOnly": "This clinic has not enabled patient messaging"
+    },
+    "loadEarlier": "Load earlier messages",
+    "events": {
+      "leftConversation": "{{user}} left the conversation",
+      "joinedConversation": "{{user}} joined the conversation",
+      "default": "Empty event"
+    },
+    "actionSheet": {
+      "camera": "Take Photo...",
+      "library": "Choose from Library..."
+    },
+    "errors": {
+      "sendMessage": "Sorry, an error occurred while sending a message, please try again.",
+      "loadMessages": "Sorry, an error occurred while loading your messages.",
+      "loadEarlierMessages": "Sorry, an error occurred while loading your earlier messages."
+    },
+    "warning": {
+      "addPhoto": "Not enable to upload your picture, please verify the size is under 1600x1600 pixels"
+    },
+    "surveyMessage": {
+      "startSurvey": "Start survey",
+      "complete": "Show all answers"
+    },
+    "videoinvitation": {
+      "clickme": "Click here to start the video conference"
+    }
+  },
+  "conversationslist": {
+    "subtitle": "Messages",
+    "subtitle_icon": "chat",
+    "subtitle_icon_type": "material",
+    "errors": {
+      "fetchConversationsList": "Sorry, an error occurred while loading your messages list.",
+      "gotoChatSelect": "Sorry, an error occurred while going to your chat message view.",
+      "unselectConversation": "Sorry, an error occurred while closing your last chat message view."
+    }
+  },
+  "activity": "ToDo's",
+  "addActivity": "Add Activity",
+  "exercise": "Exercise",
+  "nutrition": "Nutrition",
+  "dashboard": {
+    "subtitle": "Dashboard",
+    "box": {
+      "question-answer": {
+        "title": "Messages",
+        "MIGROS": {
+          "title": "Messages"
+        }
+      },
+      "show-chart": {
+        "title": "My Surveys",
+        "MIGROS": {
+          "title": "My Surveys"
+        }
+      },
+      "description": {
+        "title": "Surveys",
+        "MIGROS": {
+          "title": "Surveys"
+        }
+      },
+      "stacked-line-chart": {
+        "title": "Progress"
+      },
+      "event": {
+        "title": "Calendar",
+        "MIGROS": {
+          "title": "Calendar"
+        }
+      },
+      "officehours": {
+        "title": "Availability",
+        "MIGROS": {
+          "title": "Availability"
+        }
+      },
+      "escalator-warning": {
+        "title": "Dependents"
+      }
+    },
+    "messageMyDoctor": "New Chat",
+    "messageMyDoctorMIGROS": "New Chat",
+    "bookAppointment": "New Calendar entry",
+    "bookAppointmentMIGROS": "New Calendar entry",
+    "errors": {
+      "enableNotifications": "Sorry, an error occurred while enabling notifications.",
+      "refreshToken": "Sorry, an error occurred while process a refreshing of your authentication token.",
+      "logOut": "Sorry, an error occurred while logging out.",
+      "loadDashboard": "Sorry, an error occurred while loading your dashboard.",
+      "receivedNotification": "Sorry, an error occurred while receiving notification.",
+      "gotoLockedDashboard": "Sorry, an error occurred while logging out."
+    },
+    "notices": {
+      "receivedNotification": "You have just received a new notification.",
+      "receivedNotificationChat": "You have just received a new message.",
+      "receivedNotificationSurvey": "You have just received a new survey.",
+      "receivedNotificationSurveyReminder": "You have just received a survey reminder.",
+      "receivedNotificationAppointment": "You have just received a new appointment reminder."
+    }
+  },
+  "surveys": {
+    "subtitle": "Surveys",
+    "subtitle_icon": "show-chart",
+    "subtitle_icon_type": "material",
+    "complete": "Status: Complete",
+    "notComplete": "Status: Incomplete",
+    "sent": "Sent:",
+    "empty": "No Surveys",
+    "from": "from",
+    "incomplete": {
+      "one": "1 incomplete",
+      "other": "{{count}} incompletes",
+      "zero": "0 incomplete"
+    },
+    "survey": {
+      "one": "1 survey",
+      "other": "{{count}} surveys",
+      "zero": "0 survey"
+    },
+    "graphic": {
+      "date": "DATE",
+      "weight": "WEIGHT"
+    },
+    "default": {
+      "surveyName": "(no survey name)"
+    },
+    "alert": {
+      "completionDate": "You already did it!"
+    },
+    "errors": {
+      "fetchSurveys": "Sorry, an error occurred while loading your surveys list.",
+      "gotoSurveyWebView": "Sorry, an error occurred while loading the details of your survey."
+    }
+  },
+  "notificationslist": {
+    "subtitle": "Notifications",
+    "subtitle_icon": "notifications",
+    "subtitle_icon_type": "material",
+    "empty": "No Notifications",
+    "dismissAll": "Dismiss All",
+    "default": {
+      "title": "no title"
+    },
+    "survey": "Sent you a survey: '{{content}}'",
+    "surveyReminder": "This is a reminder to fill out your survey '{{content}}'",
+    "errors": {
+      "fetchNotificationsList": "Sorry, an error occurred while loading your notifications list."
+    }
+  },
+  "appointmentslist": {
+    "subtitle": "Appointment",
+    "subtitle_icon": "event",
+    "subtitle_icon_type": "material",
+    "contentItem": "Appointment at {{hour}} on {{day}}, {{date}} of {{month}}",
+    "contentScheduleItem": "Time to make your next appointment. Tap here for recommendation details.",
+    "reminder": "Reminder",
+    "confirmation": "Confirmation",
+    "errors": {
+      "fetchAppointmentsListAsync": "Sorry, an error occurred while loading your appointment reminders"
+    }
+  },
+  "appointment": {
+    "subtitle": "Appointment Reminder",
+    "subtitle_icon": "event",
+    "subtitle_icon_type": "material",
+    "salutation": "Hi{{name}},",
+    "message": "This is a reminder that you have an appointment with {{physician}} at {{hour}} {{calendar}}, {{month}} {{date}}, Please contact our office if you have any questions.",
+    "messageProxy": "This is a reminder that {{name}} has an appointment with {{physician}} at {{hour}} {{calendar}}, {{month}} {{date}}, Please contact our office if you have any questions.",
+    "card": {
+      "title": "Appointment Details",
+      "doctor": "Doctor",
+      "date": "Date",
+      "time": "Time",
+      "clinic": "Clinic",
+      "address": "Address",
+      "phone": "Telephone",
+      "message": "Note"
+    },
+    "errors": {
+      "fetchAppointment": "Sorry, an error occurred while loading your appointment reminder"
+    }
+  },
+  "profile": {
+    "subtitle": "Profile",
+    "subtitle_icon": "account-box",
+    "subtitle_icon_type": "material",
+    "default": {
+      "firstName": "(no first name)",
+      "lastName": "(no last name)",
+      "mobileNumber": "(no phone)",
+      "email": "(no email)",
+      "lang": "(no language)"
+    },
+    "language": {
+      "ENGLISH": "English",
+      "GERMAN": "German",
+      "en": "English",
+      "de": "German",
+      "(no language)": "(no language)"
+    },
+    "navigationBar": {
+      "title": "docdok.health"
+    },
+    "card": {
+      "welcome": "Welcome {{salutation}}{{firstname}} {{lastname}}",
+      "listItem": {
+        "name": "Name",
+        "mobileNumber": "Mobile number",
+        "email": "Email",
+        "language": "Language"
+      },
+      "button": {
+        "logout": "Logout",
+        "updateAvatar": "Update photo"
+      }
+    },
+    "actionSheet": {
+      "camera": "Take Photo...",
+      "library": "Choose from Library..."
+    },
+    "errors": {
+      "updateAvatar": "Sorry, an error occurred while updating your photo."
+    },
+    "help": {
+      "keepInfos": "Please keep the following technical information for our support team"
+    }
+  },
+  "dossier": {
+    "subtitle": "Dependents",
+    "subtitle_icon": "account-circle",
+    "subtitle_icon_type": "material",
+    "birthday": "Birthday"
+  },
+  "dossierDetail": {
+    "subtitle": "Dependents",
+    "subtitle_icon": "account-circle",
+    "subtitle_icon_type": "material",
+    "name": "Name",
+    "birthday": "Birthdate",
+    "gender": "Gender",
+    "primaryPhysician": "Primary Physician",
+    "actionSheet": {
+      "camera": "Take Photo...",
+      "library": "Choose from Library..."
+    }
+  },
+  "bookappointment": {
+    "subtitle": "Book appointment",
+    "subtitle_icon": "calendar-plus",
+    "subtitle_icon_type": "material-community",
+    "preferredDate": "Preferred date",
+    "preferredDayOfWeek": "Preferred day of week",
+    "preferredTimeOfDay": "Preferred time of Day",
+    "preferredDoctor": "Preferred Doctor",
+    "requestAppointment": "Request Appointment",
+    "anyDate": "Any",
+    "anyDayOfWeek": "Any",
+    "anyTime": "Any",
+    "anyDoctor": "Any",
+    "urgent": "Urgent",
+    "thisWeek": "This Week",
+    "withinTwoWeeks": "Within 2 weeks",
+    "thisMonth": "This Month",
+    "monday": "Mo",
+    "tuesday": "Tu",
+    "wednesday": "We",
+    "thursday": "Th",
+    "friday": "Fr",
+    "morning": "Morning",
+    "afternoon": "Afternoon",
+    "urgentWarning": "For urgent issues, please call the clinic directly",
+    "reasonForAppointment": "Reason for appointment",
+    "reasonForAppointmentPlaceholder": "(e.g. chronic stomach pain)",
+    "otherDoctor": "Other",
+    "otherDoctorTitle": "Other Doctor name (required)",
+    "otherDoctorPlaceholder": "(e.g. Dr. John Doe)",
+    "message": {
+      "anyDate": "Any available date",
+      "anyDayOfWeek": "Any day of the week",
+      "anyDoctor": "Any doctor",
+      "anyTime": "Any time",
+      "thisWeek": "this week",
+      "withinTwoWeeks": "within 2 weeks",
+      "thisMonth": "this Month",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "morning": "in the morning",
+      "afternoon": "in the afternoon",
+      "content": "Appointment Booking Request\nPreferred date: {{date}}\nPreferred day of week: {{day}}\nPreferred time of Day: {{time}}\nPreferred Doctor: {{doctor}}",
+      "contentWithReason": "Appointment Booking Request\nPreferred date: {{date}}\nPreferred day of week: {{day}}\nPreferred time of Day: {{time}}\nPreferred Doctor: {{doctor}}\nReason for appointment: {{reasonForAppointment}}"
+    }
+  },
+  "exportAppointment": {
+    "linkTitle": "Import into calendar",
+    "choose": "Choose a calendar",
+    "noCalendar": "No calendars found",
+    "exportDone": "Successfully added event to calendar",
+    "needPermission": "Please provide permission to access your calendar",
+    "notSupported": "Your mobile device is not yet supported"
+  },
+  "availabilityList": {
+    "subtitle": "Clinic Availability",
+    "subtitle_icon": "access-time",
+    "subtitle_icon_type": "material"
+  },
+  "availabilitydetail": {
+    "subtitle": "Clinic Availability",
+    "subtitle_icon": "access-time",
+    "subtitle_icon_type": "material",
+    "card": {
+      "title": "Office details",
+      "clinic": "Clinic",
+      "address": "Address",
+      "phone": "Telephone",
+      "clinicAvailability": "Clinic Availability",
+      "doctorAvailability": "Doctor Availability",
+      "clinicMessage": "The normal response time for our office is usually {{hours}} during normal business hours"
+    }
+  },
+  "clickPlusBtn": "Click the plus button to add some new activities",
+  "clickPlusBtnToAdd": "Click the plus button to add create new one.",
+  "clinic": {
+    "name": "Clinic",
+    "address": "Address",
+    "phone": "Telephone"
+  },
+  "scheduleAppointment": {
+    "subtitle": "Schedule Appointment",
+    "subtitle_icon": "calendar-plus",
+    "subtitle_icon_type": "material-community",
+    "salutation": "Hi {{name}},",
+    "message": "It's time to make your next appointment at {{clinic}}. Tap \"Book Appointment\" below to request a date and time for your appointment.",
+    "card": {
+      "title": "Recommended Appointment",
+      "message": "Make your appointment near this date:"
+    }
+  },
+  "appointmentConfirmation": {
+    "subtitle": "Appointment Confirmation",
+    "subtitle_icon": "calendar-check",
+    "subtitle_icon_type": "material-community",
+    "message": "This is a confirmation that you have an appointment with {{physician}} at {{hour}} {{calendar}}, {{month}} {{date}}, Please contact our office if you have any questions."
+  },
+  "events": {
+    "add": {
+      "title": "Title",
+      "duration": "Duration",
+      "location": "Location",
+      "date": "Start Date",
+      "endDate": "End Date",
+      "time": "Time",
+      "startTime": "Start Time",
+      "endTime": "End Time",
+      "more_option": "More Options",
+      "reccurence": "Reccurence",
+      "every_day": "Every day",
+      "every_weekday": "Every weekday",
+      "monthly": "Monthly",
+      "daily": "Daily",
+      "weekly": "Weekly",
+      "update": "Update",
+      "save": "Save",
+      "cancle": "Cancle",
+      "loading": "Saving...",
+      "validation": {
+        "endTime": "End time must be after start time",
+        "short": "Too short!",
+        "long": "Too long!",
+        "required": "This is required field"
+      },
+      "success": "Event saved successfully."
+    },
+    "remove": {
+      "title": "Remove Event",
+      "message": "Are you sure you want to remove the event?",
+      "ok": "Ok",
+      "cancle": "Cancle",
+      "success": "Event removed successfully."
+    },
+    "list": {
+      "search": "Search previous events"
+    }
+  },
+  "comingSoon": "Coming Soon",
+  "coaching": "Coaching",
+  "dataSharing": "Please note that the information entered here may be viewed by the health professional(s) linked to you.",
+  "DONE": "DONE",
+  "dontHaveActivity": "You don't have any previous activities yet.",
+  "feelingBlue": "Feeling blue?",
+  "SCHEDULED": "SCHEDULED",
+  "status": "Status"
+}

@@ -1,0 +1,33 @@
+/**
+ {{name}}Actions
+ */
+
+export const ActionTypes = {
+  {{upperCase name}}_REQUESTED: '{{upperCase name}}_REQUESTED',
+  {{upperCase name}}_SUCCEEDED: '{{upperCase name}}_SUCCEEDED',
+  {{upperCase name}}_FAILED: '{{upperCase name}}_FAILED'
+}
+
+
+export default class Actions {
+  static {{camelCase name}}Requested(id) {
+    return {
+      type: ActionTypes.{{upperCase name}}_REQUESTED,
+      payload: { id }
+    }
+  }
+  static {{camelCase name}}Succeeded(data) {
+    return {
+      type: ActionTypes.{{upperCase name}}_SUCCEEDED,
+      payload: { data },
+    }
+  }
+  static {{camelCase name}}Failed(error: Error) {
+    return {
+      type: ActionTypes.{{upperCase name}}_FAILED,
+      payload: {
+        error,
+      }
+    }
+  }
+}

@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ScheduleAppointment/> render correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "height": 1334,
+    }
+  }
+>
+  <View>
+    <View
+      style={
+        Object {
+          "alignItems": "flex-start",
+          "backgroundColor": "#fff",
+          "justifyContent": "flex-start",
+          "margin": 15,
+          "marginTop": 25,
+        }
+      }
+    >
+      <Text
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "TitilliumWeb-Regular",
+              "fontSize": 17.5,
+              "lineHeight": 22,
+              "overflow": "visible",
+            },
+            Object {
+              "color": "rgba(27, 106, 158, 0.85)",
+              "fontSize": 17.5,
+              "lineHeight": 21,
+            },
+            Object {
+              "textAlign": "left",
+            },
+          ]
+        }
+      >
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontSize": 17.5,
+                "lineHeight": 21,
+              },
+              undefined,
+            ]
+          }
+        >
+          scheduleAppointment.salutation
+        </Text>
+        
+
+        
+
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontSize": 17.5,
+                "lineHeight": 21,
+              },
+              undefined,
+            ]
+          }
+        >
+          scheduleAppointment.message
+        </Text>
+      </Text>
+    </View>
+    <View
+      style={
+        Object {
+          "padding": 20,
+        }
+      }
+    >
+      <BookAppointmentLink
+        forceConversationId={1}
+        scheduleAppointment={123}
+      />
+    </View>
+  </View>
+</RCTScrollView>
+`;

@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chat/> render correctly 1`] = `
+<View
+  accessibilityLabel="chat"
+  style={
+    Object {
+      "backgroundColor": "#fff",
+      "flex": 1,
+    }
+  }
+  testID="chat"
+>
+  <View
+    style={
+      Array [
+        Object {
+          "backgroundColor": "transparent",
+          "elevation": 4,
+          "height": 40,
+          "justifyContent": "flex-start",
+          "shadowColor": "black",
+          "shadowOffset": Object {
+            "height": 0.5,
+            "width": 0.5,
+          },
+          "shadowOpacity": 0.1,
+          "shadowRadius": 0.5,
+          "width": 750,
+          "zIndex": 1000,
+        },
+      ]
+    }
+  >
+    <View
+      accessibilityLabel="header-subtitle"
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#E7ECEE",
+          "flexDirection": "row",
+          "height": 40,
+          "justifyContent": "center",
+          "width": 750,
+        }
+      }
+      testID="header-subtitle"
+    >
+      <Text
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "TitilliumWeb-Regular",
+              "fontSize": 17.5,
+              "lineHeight": 22,
+              "overflow": "visible",
+            },
+            Object {
+              "color": "rgba(27, 106, 158, 0.85)",
+              "fontFamily": "TitilliumWeb-SemiBold",
+              "fontSize": 18.125,
+              "lineHeight": 22,
+            },
+            Array [
+              Object {
+                "backgroundColor": "transparent",
+                "fontSize": 17.5,
+                "fontWeight": "400",
+                "textAlign": "center",
+              },
+              false,
+              Object {
+                "fontSize": 15,
+              },
+            ],
+          ]
+        }
+      >
+        a fake title
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      Object {
+        "flex": 1,
+      }
+    }
+  >
+    GiftedChat
+  </View>
+</View>
+`;

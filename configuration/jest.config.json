@@ -1,0 +1,18 @@
+{
+  "preset": "jest-expo",
+  "rootDir": "..",
+  "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
+  "moduleNameMapper": {
+    "^(\\w*)/(.*)$\"": "<rootDir>/src/$1/$2",
+    "^(\\w*)$\"": "<rootDir>/src/$1"
+  },
+  "transform": {
+    "^.+\\.(js|jsx|ts|tsx)$": "babel-jest"
+  },
+  "testMatch": ["**/*.test.ts?(x)"],
+  "globals": {
+    "__JEST__": true
+  },
+  "setupFiles": ["<rootDir>/configuration/jest.setup.js"],
+  "testPathIgnorePatterns": ["<rootDir>/e2e/"]
+}

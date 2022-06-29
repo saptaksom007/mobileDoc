@@ -1,0 +1,22 @@
+/**
+ {{name}}Sagas
+ */
+
+import { call, put, takeEvery } from 'redux-saga/effects'
+import * as api from 'api'
+
+import Actions, { ActionTypes } from './{{name}}.actions'
+
+function* fetch{{name}}() {
+  try {
+    const user = yield call(api.fetch{{name}}, 123456)
+    yield put(Actions.{{camelCase name}}Succeeded(user))
+  } catch (err) {
+    yield put(Actions.{{camelCase name}}Failed(err))
+  }
+}
+
+export default [
+  takeEvery(ActionTypes.{{upperCase name}}_REQUESTED, fetch{{name}}),
+]
+

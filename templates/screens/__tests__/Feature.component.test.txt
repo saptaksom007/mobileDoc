@@ -1,0 +1,11 @@
+import 'react-native'
+import React from 'react'
+import renderer from 'react-test-renderer'
+import { {{ properCase name }} } from '{{ properCase name }}Screen'
+
+it('<{{ properCase name }}/> render correctly', () => {
+  const tree = renderer.create(
+    <{{ properCase name }} dispatch={() => {}} />
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})

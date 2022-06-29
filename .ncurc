@@ -1,0 +1,3 @@
+{
+  "reject": "axios,expo,react,@expo/vector-icons,react-navigation,sentry-expo,redux-saga,react-native-elements,ex-react-native-i18n,react-redux,react-native-webview,@react-native-community/netinfo,@expo/react-native-action-sheet"
+}

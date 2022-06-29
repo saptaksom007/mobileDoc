@@ -1,0 +1,306 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<NotificationsList/> render correctly 1`] = `
+<View
+  accessibilityLabel="notifications-list"
+  style={
+    Object {
+      "alignItems": "center",
+      "height": 1294,
+      "justifyContent": "center",
+    }
+  }
+  testID="notifications-list"
+>
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontSize": 17.5,
+          "lineHeight": 21,
+        },
+        Object {
+          "color": "#999",
+          "marginTop": -40,
+        },
+      ]
+    }
+  >
+    notificationslist.empty
+  </Text>
+</View>
+`;
+
+exports[`<NotificationsList/> render correctly with appointment 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 25,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "zIndex": 1000,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E7ECEE",
+            "borderRadius": 30,
+            "height": 60,
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessibilityLabel="notifications-list"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+      }
+    }
+    testID="notifications-list"
+  >
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "conversationId": 650,
+            "id": 1443,
+            "mediaResource": null,
+            "meta": Object {
+              "appointmentId": "15",
+              "notificationtype": "APPOINTMENT",
+            },
+            "postedAt": "2018-07-05T10:19:07+02:00",
+            "sequenceNo": 1,
+            "text": "",
+            "userRef": "0cbe4673-8eec-48ad-adad-594f3c02e729",
+            "uuid": "6f0e507d-e9fe-478a-ae02-55006c4745fb",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Conversation
+            content=""
+            detailNumberOfLines={2}
+            iconName="event"
+            onPress={[Function]}
+            postedAt={2018-07-05T08:19:07.000Z}
+            title="appointment.subtitle"
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;
+
+exports[`<NotificationsList/> render correctly with survey 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "bottom": 25,
+        "justifyContent": "center",
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "zIndex": 1000,
+      }
+    }
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "#E7ECEE",
+            "borderRadius": 30,
+            "height": 60,
+            "justifyContent": "center",
+            "width": 60,
+          }
+        }
+      />
+    </View>
+  </View>
+  <View
+    accessibilityLabel="notifications-list"
+    style={
+      Object {
+        "backgroundColor": "#fff",
+        "flex": 1,
+      }
+    }
+    testID="notifications-list"
+  >
+    <RCTScrollView
+      data={
+        Array [
+          Object {
+            "conversationId": 650,
+            "id": 1443,
+            "mediaResource": null,
+            "meta": Object {
+              "creationDate": "2018-07-05T10:19:02+02:00",
+              "id": "18",
+              "notificationtype": "SURVEY",
+              "patientuuid": "PAT-251b7fdc-2eec-48fa-ae80-34a725e669c3",
+              "senderRef": "0cbe4673-8eec-48ad-adad-594f3c02e729",
+              "subtype": "SURVEY_COMPLETED",
+              "surveyId": "15",
+              "surveyName": "Erstanmeldung Erwachsene",
+              "url": "https://qa.dev.docdok.ch/limesurvey/index.php/16953?token=a8FoImzZhmoVzt0&newtest=Y&lang=",
+            },
+            "postedAt": "2018-07-05T10:19:07+02:00",
+            "sequenceNo": 1,
+            "text": "",
+            "userRef": "0cbe4673-8eec-48ad-adad-594f3c02e729",
+            "uuid": "6f0e507d-e9fe-478a-ae02-55006c4745fb",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "backgroundColor": "#fff",
+          "flex": 1,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Conversation
+            avatarUrl=""
+            content="notificationslist.survey"
+            detailNumberOfLines={5}
+            iconName="show-chart"
+            onPress={[Function]}
+            postedAt={2018-07-05T08:19:07.000Z}
+            title="undefined undefined"
+          />
+        </View>
+      </View>
+    </RCTScrollView>
+  </View>
+</View>
+`;

@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BookAppointmentLink/> render correctly 1`] = `null`;
+
+exports[`<BookAppointmentLink/> render correctly, login 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "transparent",
+      "justifyContent": "center",
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "height": 40,
+        "justifyContent": "flex-end",
+      }
+    }
+  >
+    <Text
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "TitilliumWeb-Regular",
+            "fontSize": 17.5,
+            "lineHeight": 22,
+            "overflow": "visible",
+          },
+          Object {
+            "color": "rgba(27, 106, 158, 0.85)",
+            "fontSize": 17.5,
+            "lineHeight": 21,
+          },
+          Object {
+            "textAlign": "center",
+          },
+        ]
+      }
+    >
+      dashboard.bookAppointment
+    </Text>
+  </View>
+  <View
+    accessibilityLabel="book-appointment"
+    testID="book-appointment"
+  >
+    <View
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View />
+    </View>
+  </View>
+</View>
+`;

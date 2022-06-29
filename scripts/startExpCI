@@ -1,0 +1,4 @@
+#!/bin/bash
+
+expo login --username ${EXP_USERNAME} --password ${EXP_PASSWORD}
+expo r

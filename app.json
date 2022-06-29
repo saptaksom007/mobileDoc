@@ -1,0 +1,98 @@
+{
+  "expo": {
+    "name": "docdok",
+    "version": "21.2.0",
+    "sdkVersion": "41.0.0",
+    "description": "docdok.health",
+    "slug": "docdok",
+    "privacy": "unlisted",
+    "updates": {
+      "checkAutomatically": "ON_LOAD",
+      "fallbackToCacheTimeout": 10000
+    },
+    "ios": {
+      "bundleIdentifier": "ch.health.docdok",
+      "supportsTablet": true,
+      "buildNumber": "3",
+      "config": {
+        "usesNonExemptEncryption": false
+      },
+      "icon": "./src/assets/images/icon_app_ios.png",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to update your avatar picture or to send images through the chat",
+        "NSPhotoLibraryUsageDescription": "This app uses photos to update your avatar picture or to send images through the chat",
+        "NSCalendarsUsageDescription": "This app uses the calendar to set appointments with your doctor"
+      },
+      "associatedDomains": [
+        "applinks:web.docdok.ch",
+        "applinks:stage.docdok.ch",
+        "applinks:qa.dev.docdok.ch"
+      ]
+    },
+    "android": {
+      "package": "ch.health.docdok",
+      "versionCode": 54,
+      "googleServicesFile": "./configuration/google-services.json",
+      "intentFilters": [
+        {
+          "action": "VIEW",
+          "autoVerify": true,
+          "data": [
+            {
+              "scheme": "https",
+              "host": "*.docdok.ch",
+              "pathPrefix": "/rest"
+            },
+            {
+              "scheme": "https",
+              "host": "*.docdok.ch",
+              "pathPrefix": "/private"
+            },
+            {
+              "scheme": "https",
+              "host": "qa.dev.docdok.ch",
+              "pathPrefix": "/rest"
+            },
+            {
+              "scheme": "https",
+              "host": "qa.dev.docdok.ch",
+              "pathPrefix": "/private"
+            }
+          ],
+          "category": [
+            "BROWSABLE",
+            "DEFAULT"
+          ]
+        }
+      ]
+    },
+    "orientation": "portrait",
+    "scheme": "docdok",
+    "primaryColor": "#ffffff",
+    "icon": "./src/assets/images/icon_app.png",
+    "splash": {
+      "image": "./src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "notification": {
+      "icon": "./src/assets/images/icon_notifications.png",
+      "color": "#1D5D83"
+    },
+    "androidStatusBarColor": "#ffffff",
+    "androidStatusBar": {
+      "backgroundColor": "#1D5D83"
+    },
+    "extra": {
+      "sentry": {
+        "publicDSN": "https://3de5c3d0e88d40da95eb23226d4de306@sentry.io/167910"
+      }
+    },
+    "assetBundlePatterns": [
+      "src/assets/images/**",
+      "src/assets/fonts/*.woff",
+      "node_modules/@expo/vector-icons/fonts/*.ttf",
+      "node_modules/react-native-dropdownalert/assets/*.png"
+    ]
+  }
+}

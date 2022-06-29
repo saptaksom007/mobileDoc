@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Clinic/> render correctly 1`] = `
+<Text
+  allowFontScaling={false}
+  ellipsizeMode="tail"
+  style={
+    Array [
+      Object {
+        "fontFamily": "TitilliumWeb-Regular",
+        "fontSize": 17.5,
+        "lineHeight": 22,
+        "overflow": "visible",
+      },
+      Object {
+        "color": "rgba(27, 106, 158, 0.85)",
+        "fontSize": 16.875,
+        "lineHeight": 20,
+      },
+      Object {
+        "backgroundColor": "#fff",
+        "paddingVertical": 20,
+      },
+    ]
+  }
+>
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontFamily": "TitilliumWeb-SemiBold",
+        },
+        undefined,
+      ]
+    }
+  >
+    clinic.name
+    :
+  </Text>
+   
+  name
+  
+
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontFamily": "TitilliumWeb-SemiBold",
+        },
+        undefined,
+      ]
+    }
+  >
+    clinic.address
+    :
+  </Text>
+   
+  asd
+  , 
+  wwww
+  
+
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontFamily": "TitilliumWeb-SemiBold",
+        },
+        undefined,
+      ]
+    }
+  >
+    clinic.phone
+    :
+  </Text>
+   
+  <PhoneNumber
+    value="0303003"
+  />
+  
+
+</Text>
+`;

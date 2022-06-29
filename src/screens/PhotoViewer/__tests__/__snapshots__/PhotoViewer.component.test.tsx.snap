@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PhotoViewer/> render correctly 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#000",
+      "flex": 1,
+    }
+  }
+>
+  <View
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#fff",
+          "flex": 1,
+          "justifyContent": "center",
+        },
+        Object {
+          "backgroundColor": "transparent",
+        },
+      ]
+    }
+  >
+    <ActivityIndicator
+      animating={true}
+      color="#fff"
+      hidesWhenStopped={true}
+      size="large"
+    />
+    <Text
+      allowFontScaling={false}
+      ellipsizeMode="tail"
+      style={
+        Array [
+          Object {
+            "fontFamily": "TitilliumWeb-Regular",
+            "fontSize": 17.5,
+            "lineHeight": 22,
+            "overflow": "visible",
+          },
+          Object {
+            "color": "rgba(27, 106, 158, 0.85)",
+            "fontSize": 15,
+            "lineHeight": 18,
+          },
+          undefined,
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "transparent",
+        "height": 166.75,
+        "justifyContent": "center",
+        "left": 0,
+        "opacity": 1,
+        "position": "absolute",
+        "top": 0,
+        "width": 62.5,
+      }
+    }
+  />
+</View>
+`;

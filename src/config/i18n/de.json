@@ -1,0 +1,470 @@
+{
+  "global": {
+    "name": "docdok.health",
+    "notitle": "Kein Titel",
+    "empty": "Keine Einträge",
+    "undefined": "Nicht definiert",
+    "refresh": "Erneut Laden",
+    "help": "Hilfe",
+    "cancel": "Stornieren",
+    "yes": "Ja",
+    "no": "Nein",
+    "update": "Eine neue Version von docdok wird installiert..."
+  },
+  "tech": {
+    "clearStorage": {
+      "title": "Clear Storage",
+      "text": "Möchten Sie den lokalen Speicher löschen? z.B. wenn Sie sich mit einem anderen Benutzer verbinden möchten."
+    }
+  },
+  "error": {
+    "default": "Es tut uns leid, es ist ein Fehler aufgetreten.",
+    "outdatedApp": "Bitte klicken Sie hier, um zum Appstore zu gelangen und die docdok App zu aktualisieren. Schließen Sie die docdok App nach der Aktualisierung und starten Sie sie neu.",
+    "internalServerError": "Es tut uns leid, es ist ein Fehler aufgetreten.",
+    "internetConnectionLost": "Die Internetverbindung ist unterbrochen. Versuchen Sie erneut, eine Verbindung herzustellen",
+    "noDoctor": {
+      "intro": "Die Anmeldung für Ärzte auf der docdok Mobile App wird noch nicht unterstützt.",
+      "android": "Um sich als Arzt aus dem Web bei docdok anzumelden, deinstallieren Sie bitte entweder die docdok Mobile App oder ändern Sie die App Link-Einstellungen wie folgt: Einstellungen > Apps > docdok > Als Standard festlegen > Zu unterstützten URLs wechseln > In anderer App auswählen.",
+      "ios": "Um sich als Arzt aus dem Web bei docdok anzumelden, deinstallieren Sie bitte die docdok Mobile App.",
+      "beforeLink": "Bitte melden Sie sich im Web an unter:"
+    }
+  },
+  "terms": {
+    "title": "Geschäftsbedingungen",
+    "agree": "Bestätigen",
+    "decline": "Ablehnen",
+    "close": "Schliessen",
+    "changed": "Bitte akzeptieren Sie die aktualisierten Nutzungsbedingungen",
+    "checkboxLabel": "Ich habe die Nutzungsbedingungen und die Datenschutzerklärung gelesen und stimme ihnen zu.",
+    "checkboxAlert": "Bitte bestätigen Sie, dass Sie die Allgemeinen Geschäftsbedingungen gelesen haben und diesen zustimmen",
+    "consent": "Mit meiner Zustimmung willige ich ausdrücklich in die Speicherung meiner Gesundheitsdaten in der EU und damit ausserhalb der Schweiz ein.",
+    "consentLink": "Mehr Informationen dazu finden sich in der Datenschutzerklärung."
+  },
+  "calendar": {
+    "yesterday": "Gestern",
+    "tomorrow": "Morgen",
+    "today": "Heute"
+  },
+  "alert": {
+    "notImplemented": "Nicht implementiert",
+    "sessionHasExpired": {
+      "title": "Die Sitzung ist abgelaufen!",
+      "body": "Ihre Sitzung ist abgelaufen, bitte melden Sie sich erneut an.",
+      "button": "Log-in"
+    },
+    "shouldBeLoggedIn": "Sie müssen eingeloggt sein",
+    "notification": {
+      "title": "Keine Notifikationen",
+      "text": "Sie werden keine Notifikationen von Ihrem Arzt erhalten. Wollen Sie die Notifikationsfunktion aktivieren?"
+    }
+  },
+  "login": {
+    "headerIconLabel": "Log-in",
+    "errors": {
+      "getMe": "Entschuldigen Sie, bei der Anmeldung zu docdok.health ist ein Fehler aufgetreten.",
+      "retrieveTokens": "Entschuldigen Sie, bei der Authentifizierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut.",
+      "getLimitedAccessToken": "Entschuldigen Sie, bei der Authentifizierung ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+    }
+  },
+  "chat": {
+    "composer": {
+      "placeholder": "Nachricht ...",
+      "readOnly": "Patienten Chat nicht aktiviert"
+    },
+    "loadEarlier": "Lade frühere Mitteilungen",
+    "events": {
+      "leftConversation": "{{user}} hat die Konversation verlassen",
+      "joinedConversation": "{{user}} ist der Konversation beigetreten",
+      "default": ""
+    },
+    "actionSheet": {
+      "camera": "Foto machen...",
+      "library": "Aus der Bibliothek auswählen..."
+    },
+    "errors": {
+      "sendMessage": "Entschuldigen Sie, beim Versenden der Nachricht ist ein Fehler aufgetreten, versuchen Sie es erneut.",
+      "loadMessages": "Entschuldigen Sie, beim Laden Ihrer Nachrichten ist ein Fehler aufgetreten.",
+      "loadEarlierMessages": "Entschuldigen Sie, beim Laden von älteren Nachrichten ist ein Fehler aufgetreten"
+    },
+    "warning": {
+      "addPhoto": "Wir können Ihr Bild nicht hochladen. Bitte überprüfen Sie, ob das Bild unter 1600x1600 Pixel gross ist."
+    },
+    "surveyMessage": {
+      "startSurvey": "Umfrage starten",
+      "complete": "Alle Antworten anzeigen"
+    },
+    "videoinvitation": {
+      "clickme": "Klicken Sie hier um die Video Konferenz zu starten"
+    }
+  },
+  "conversationslist": {
+    "subtitle": "Nachrichten",
+    "subtitle_icon": "chat",
+    "subtitle_icon_type": "material",
+    "errors": {
+      "fetchConversationsList": "Entschuldigen Sie, beim Laden Ihrer Nachrichtenliste ist ein Fehler aufgetreten.",
+      "gotoChatSelect": "Entschuldigen Sie, beim Laden Ihrer Chatnachrichten Ansicht ist ein Fehler aufgetreten",
+      "unselectConversation": "Entschuldigen Sie, beim Schliessen Ihrer letzten Chat Nachricht ist ein Fehler aufgetreten."
+    }
+  },
+  "activity": "ToDo's",
+  "addActivity": "Add Activity",
+  "exercise": "Bewegung",
+  "nutrition": "Ernährung",
+  "dashboard": {
+    "subtitle": "Dashboard",
+    "box": {
+      "question-answer": {
+        "title": "Nachrichten",
+        "MIGROS": {
+          "title": "Nachrichten"
+        }
+      },
+      "description": {
+        "title": "Umfragen",
+        "MIGROS": {
+          "title": "Umfragen"
+        }
+      },
+      "account-circle": {
+        "title": "Mein Fortschritt",
+        "MIGROS": {
+          "title": "Mein Fortschritt"
+        }
+      },
+      "stacked-line-chart": {
+        "title": "Entwicklung"
+      },
+      "event": {
+        "title": "Kalender",
+        "MIGROS": {
+          "title": "Kalender"
+        }
+      },
+      "officehours": {
+        "title": "Verfügbarkeit",
+        "MIGROS": {
+          "title": "Verfügbarkeit"
+        }
+      },
+      "escalator-warning": {
+        "title": "Dossiers"
+      },
+      "access-time": {
+        "title": "Praxisverfügbarkeit"
+      }
+    },
+    "messageMyDoctor": "Neue Nachricht",
+    "messageMyDoctorMIGROS": "Neue Nachricht",
+    "bookAppointment": "Neuer Kalendereintrag",
+    "bookAppointmentMIGROS": "Neuer Kalendereintrag",
+    "errors": {
+      "enableNotifications": "Entschuldigen Sie, bei der Benachrichtigungsnotifikation ist ein Fehler aufgetreten.",
+      "refreshToken": "Entschuldigen Sie, bei der Aktualisierung Ihres Authentifizierungstokens ist ein Fehler aufgetreten.",
+      "logOut": "Entschuldigen Sie, bei der Abmeldung ist ein Fehler aufgetreten.",
+      "receivedNotification": "Entschuldigen Sie, beim Empfang einer Notifikation ist ein Fehler aufgetreten.",
+      "loadDashboard": "Entschuldigen Sie, beim Laden Ihrer Hauptbildschirm ist ein Fehler aufgetreten.",
+      "gotoLockedDashboard": "Entschuldigen Sie, bei der Abmeldung ist ein Fehler aufgetreten."
+    },
+    "notices": {
+      "receivedNotification": "Sie haben eine neue Benachrichtigung erhalten.",
+      "receivedNotificationChat": "Sie haben eine neue Nachricht erhalten.",
+      "receivedNotificationSurvey": "Sie haben eine neue Umfrage erhalten.",
+      "receivedNotificationSurveyReminder": "Sie habe noch unvollständige Umfragen",
+      "receivedNotificationAppointment": "Sie haben eine neue Terminerinnerung erhalten."
+    }
+  },
+  "surveys": {
+    "subtitle": "Umfragen",
+    "subtitle_icon": "show-chart",
+    "subtitle_icon_type": "material",
+    "complete": "Status: Abgeschlossen",
+    "notComplete": "Status: Nicht abgeschlossen",
+    "sent": "Gesendet",
+    "empty": "Keine Umfragen",
+    "from": "von",
+    "incomplete": {
+      "one": "1 nicht abgeschlossen",
+      "other": "{{count}} nicht abgeschlossen",
+      "zero": "0 nicht abgeschlossen"
+    },
+    "survey": {
+      "one": "1 Umfrage",
+      "other": "{{count}} Umfragen",
+      "zero": "0 Umfragen"
+    },
+    "graphic": {
+      "date": "DATUM",
+      "weight": "GEWICHT"
+    },
+    "default": {
+      "surveyName": "(Keine Umfrage)"
+    },
+    "alert": {
+      "completionDate": "Sie haben die Umfrage bereits ausgefüllt"
+    },
+    "errors": {
+      "fetchSurveys": "Entschuldigen Sie, beim Laden Ihrer Umfrage ist ein Fehler aufgetreten.",
+      "gotoSurveyWebView": "Entschuldigen Sie, beim Laden Ihrer Umfrage ist ein Fehler aufgetreten"
+    }
+  },
+  "notificationslist": {
+    "subtitle": "Benachrichtigungen",
+    "subtitle_icon": "notifications",
+    "subtitle_icon_type": "material",
+    "empty": "Keine Benachrichtigungen",
+    "dismissAll": "Alle als gesehen markieren",
+    "default": {
+      "title": "Kein Titel"
+    },
+    "survey": "Es wurde eine Umfrage an Sie versendet: '{{content}}'",
+    "surveyReminder": "Dies ist eine Erinnerung, die Umfrage '{{content}}' auszufüllen",
+    "errors": {
+      "fetchNotificationsList": "Entschuldigen Sie, beim Laden Ihrer Benachrichtigungen ist ein Fehler aufgetreten."
+    }
+  },
+  "appointmentslist": {
+    "subtitle": "Termin",
+    "subtitle_icon": "event",
+    "subtitle_icon_type": "material",
+    "contentItem": "Termin um {{hour}} am {{day}}, den {{date}} {{month}}",
+    "contentScheduleItem": "Es ist Zeit, Ihren nächsten Termin zu buchen. Klicken Sie hier für Terminempfehlungs-Details.",
+    "reminder": "Terminerinnerung",
+    "confirmation": "Terminbestätigung",
+    "errors": {
+      "fetchAppointmentsListAsync": "Entschuldigen Sie, beim Laden Ihrer Terminerinnerungen ist ein Fehler aufgetreten"
+    }
+  },
+  "appointment": {
+    "subtitle": "Terminerinnerung",
+    "subtitle_icon": "event",
+    "subtitle_icon_type": "material",
+    "salutation": "Hallo{{name}},",
+    "message": "Dies ist eine Erinnerung, dass Sie am {{date}} {{month}} um {{hour}} einen Termin bei {{physician}} haben. Bitte kontaktieren Sie unsere Praxis, falls Sie Fragen haben.",
+    "messageProxy": "Dies ist eine Erinnerung, dass {{name}} am {{date}} {{month}} um {{hour}} einen Termin bei {{physician}} hat. Bitte kontaktieren Sie unsere Praxis, falls Sie Fragen haben.",
+    "card": {
+      "title": "Termindetails",
+      "doctor": "Doktor",
+      "date": "Datum",
+      "time": "Zeit",
+      "clinic": "Praxis",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "message": "Nachricht"
+    },
+    "errors": {
+      "fetchAppointment": "Entschuldigen Sie, beim Laden Ihrer Terminerinnerung ist ein Fehler aufgetreten"
+    }
+  },
+  "profile": {
+    "subtitle": "Profil",
+    "subtitle_icon": "account-box",
+    "subtitle_icon_type": "material",
+    "default": {
+      "firstName": "(Kein Vorname)",
+      "lastName": "(Kein Nachname)",
+      "mobileNumber": "(Kein Mobiltelefon)",
+      "email": "(Keine E-Mail)",
+      "lang": "(Keine Sprache)"
+    },
+    "language": {
+      "ENGLISH": "Englisch",
+      "GERMAN": "Deutsch",
+      "en": "Englisch",
+      "de": "Deutsch",
+      "(no language)": "(Keine Sprache)"
+    },
+    "navigationBar": {
+      "title": "docdok.health"
+    },
+    "card": {
+      "welcome": "Willkommen {{salutation}}{{firstname}} {{lastname}}",
+      "listItem": {
+        "name": "Name",
+        "mobileNumber": "Mobiltelefon",
+        "email": "E-Mail",
+        "language": "Sprache"
+      },
+      "button": {
+        "logout": "Ausloggen",
+        "updateAvatar": "Foto ändern"
+      }
+    },
+    "actionSheet": {
+      "camera": "Foto machen...",
+      "library": "Aus der Bibliothek auswählen..."
+    },
+    "errors": {
+      "updateAvatar": "Entschuldigne Sie, beim Aktualisieren Ihres Anzeigebildes ist ein Fehler aufgetreten."
+    },
+    "help": {
+      "keepInfos": "Bitte bewahren Sie die folgenden technischen Informationen für unser Supportteam auf."
+    }
+  },
+  "dossier": {
+    "subtitle": "Dossiers",
+    "subtitle_icon": "account-circle",
+    "subtitle_icon_type": "material",
+    "birthday": "Geburtstag"
+  },
+  "dossierDetail": {
+    "subtitle": "Dossiers",
+    "subtitle_icon": "account-circle",
+    "subtitle_icon_type": "material",
+    "name": "Name",
+    "birthday": "Geburtstag",
+    "gender": "Geschlecht",
+    "primaryPhysician": "Primärer Arzt",
+    "actionSheet": {
+      "camera": "Foto machen...",
+      "library": "Aus der Bibliothek auswählen..."
+    }
+  },
+  "bookappointment": {
+    "subtitle": "Termin buchen",
+    "subtitle_icon": "calendar-plus",
+    "subtitle_icon_type": "material-community",
+    "preferredDate": "Bevorzugtes Datum",
+    "preferredDayOfWeek": "Bevorzugter Wochentag",
+    "preferredTimeOfDay": "Bevorzugte Tageszeit",
+    "preferredDoctor": "Bevorzugter Arzt",
+    "requestAppointment": "Termin anfragen",
+    "anyDate": "Alle",
+    "anyDayOfWeek": "Alle",
+    "anyTime": "Alle",
+    "anyDoctor": "Alle",
+    "urgent": "Dringend",
+    "thisWeek": "Diese Woche",
+    "withinTwoWeeks": "Innert 2 Wochen",
+    "thisMonth": "Diesen Monat",
+    "monday": "Mo",
+    "tuesday": "Di",
+    "wednesday": "Mi",
+    "thursday": "Do",
+    "friday": "Fr",
+    "morning": "Morgen",
+    "afternoon": "Nachmittag",
+    "urgentWarning": "Kontaktieren Sie bitte in Notfällen die Praxis direkt",
+    "reasonForAppointment": "Grund für Terminbuchungsanfrage",
+    "reasonForAppointmentPlaceholder": "(z.B. chronische Bauchschmerzen)",
+    "otherDoctor": "Andere",
+    "otherDoctorTitle": "Namen weiterer Arzt (erforderlich)",
+    "otherDoctorPlaceholder": "(z.B. Dr. Hans Muster)",
+    "message": {
+      "anyDate": "an jedem verfügbaren Datum",
+      "anyDayOfWeek": "jeder Tag",
+      "anyDoctor": "beliebiger Arzt",
+      "anyTime": "jede Tageszeit",
+      "monday": "Montags",
+      "tuesday": "Dienstags",
+      "wednesday": "Mittwochs",
+      "thursday": "Donnerstags",
+      "friday": "Freitags",
+      "morning": "Morgen",
+      "afternoon": "Nachmittag",
+      "thisWeek": "Diese Woche",
+      "withinTwoWeeks": "Innerhalb der nächsten 2 Wochen",
+      "thisMonth": "Diesen Monat",
+      "content": "Terminbuchungsanfrage\nBevorzugtes Datum: {{date}}\nBevorzugter Wochentag: {{day}}\nBevorzugte Tageszeit: {{time}}\nBevorzugter Arzt: {{doctor}}",
+      "contentWithReason": "Terminbuchungsanfrage\nBevorzugtes Datum: {{date}}\nBevorzugter Wochentag: {{day}}\nBevorzugte Tageszeit: {{time}}\nBevorzugter Arzt: {{doctor}}\nGrund für Terminbuchungsanfrage: {{reasonForAppointment}}"
+    }
+  },
+  "availabilityList": {
+    "subtitle": "Praxisverfügbarkeit",
+    "subtitle_icon": "access-time",
+    "subtitle_icon_type": "material"
+  },
+  "availabilitydetail": {
+    "subtitle": "Praxisverfügbarkeit",
+    "subtitle_icon": "access-time",
+    "subtitle_icon_type": "material",
+    "card": {
+      "title": "Praxisdetails",
+      "clinic": "Praxis",
+      "address": "Adresse",
+      "phone": "Telefon",
+      "clinicAvailability": "Verfügbarkeit der Praxis",
+      "doctorAvailability": "Verfügbarkeit des Arztes",
+      "clinicMessage": "Die normale Reaktionszeit unserer Arztpraxis für Patientenanfragen ist normalerweise {{hours}} Stunden während der normalen Praxisverfügbarkeit"
+    }
+  },
+  "exportAppointment": {
+    "linkTitle": "Import zu Kalender",
+    "choose": "Kalender auswählen",
+    "noCalendar": "Kein Kalender gefunden",
+    "exportDone": "Termin in Kalender übertragen",
+    "needPermission": "Gewähren Sie DocDok Zugriff auf den Kalender",
+    "notSupported": "Ihr Mobilgerät wird noch nicht unterstützt"
+  },
+  "clickPlusBtn": "Klicken Sie auf das Plus, um neue Ereignisse hinzuzufügen",
+  "clickPlusBtnToAdd": "Klicken Sie hier um ein neues zu erstellen",
+  "clinic": {
+    "name": "Praxis",
+    "address": "Adresse",
+    "phone": "Telefon"
+  },
+  "scheduleAppointment": {
+    "subtitle": "Termin buchen",
+    "subtitle_icon": "calendar-plus",
+    "subtitle_icon_type": "material-community",
+    "salutation": "Hallo {{name}},",
+    "message": "es ist Zeit, Ihren nächsten Termin bei {{clinic}} zu buchen. Klicken Sie unten auf \"Termin buchen\", um ein Datum und eine Uhrzeit für Ihren nächsten Termin anzufordern.",
+    "card": {
+      "title": "Vorgeschlagener Termin",
+      "message": "Buchen Sie Ihren Termin um dieses Datum herum:"
+    }
+  },
+  "appointmentConfirmation": {
+    "subtitle": "Terminbestätigung",
+    "subtitle_icon": "calendar-check",
+    "subtitle_icon_type": "material-community",
+    "message": "Dies ist eine Terminbestätigung, dass Sie am {{date}} {{month}} um {{hour}} einen Termin bei {{physician}} haben. Bitte kontaktieren Sie unsere Praxis, falls Sie Fragen haben."
+  },
+  "events": {
+    "add": {
+      "title": "Titel",
+      "duration": "Dauer",
+      "location": "Ort",
+      "date": "Startdatum",
+      "endDate": "Enddatum",
+      "time": "Zeit",
+      "startTime": "Beginn",
+      "endTime": "Ende",
+      "more_option": "Weitere Optionen",
+      "reccurence": "Wiederholen",
+      "every_day": "Jeden Tag",
+      "every_weekday": "Jeden Wochentag",
+      "monthly": "Monatlich",
+      "daily": "Täglich",
+      "weekly": "Wöchentlich",
+      "update": "Aktualisieren",
+      "save": "Speichern",
+      "cancle": "Stornieren ",
+      "loading": "Speichern...",
+      "validation": {
+        "endTime": "Die Endzeit muss nach der Startzeit liegen",
+        "short": "Zu kurz!",
+        "long": "Zu lang!",
+        "required": "Dieses Feld wird benötigt"
+      },
+      "success": "Ereignis erfolgreich gespeichert."
+    },
+    "remove": {
+      "title": "Ereignis entfernen",
+      "message": "Sind Sie sicher, dass Sie das Ereignis entfernen möchten?",
+      "ok": "Ok",
+      "cancle": "Stornieren",
+      "success": "Ereignis erfolgreich entfernt."
+    },
+    "list": {
+      "search": "Frühere Ereignisse suchen"
+    }
+  },
+  "comingSoon": "Coming Soon",
+  "dataSharing": "Bitte nehmen Sie zur Kenntnis, dass die hier eingegebenen Angaben von der mit Ihnen verknüpften Gesundheitsfachperson/en eingesehen werden können.",
+  "DONE": "Abgeschlossen",
+  "dontHaveActivity": "Sie haben noch keine vorherigen Ereignisse",
+  "feelingBlue": "Feeling blue?",
+  "SCHEDULED": "Geplant",
+  "status": "Status"
+}

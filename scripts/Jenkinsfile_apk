@@ -1,0 +1,86 @@
+#!/usr/bin/groovy
+
+ddWithChatMessage {
+  withCredentials([
+    usernamePassword(
+      credentialsId: 'Expo',
+      passwordVariable: 'EXP_PASSWORD',
+      usernameVariable: 'EXP_USERNAME'
+    ),
+    usernamePassword(
+      credentialsId: 'nexus',
+      usernameVariable: 'NEXUS_U',
+      passwordVariable: 'NEXUS_P'
+    ),
+  ]) {
+	  doBuild()
+  }
+}
+
+def doBuild() {
+  node("em-expjs") {
+    def externalMethod
+    String urlArtifact
+
+    stage('Checkout') {
+      checkout scm
+      externalMethod = load("scripts/externalMethod.groovy")
+    }
+
+    stage('Configure') {
+      env.EXP_ENV = externalMethod.getEnvFromBranch(scm.branches[0].name, env.EXP_ENV)
+      sh "yarn copyEnv"
+    }
+
+    stage('Install') {
+      sh "yarn install"
+    }
+
+    timeout(30) {
+      stage('Build') {
+        if (env.EXP_ENV == 'production') {
+          // TODO: externalMethod.jenkinsNeedsYourInput(env.BUILD_URL, env.JOB_NAME, env.BUILD_NUMBER)
+          publish = input message: 'Build in production ? (yes or no)', ok: 'Publish', parameters: [string(defaultValue: 'no', name: 'Response')]
+          if (publish == 'yes') {
+            sh "yarn build-apk"
+          } else {
+            // do nothing
+            echo "Not published in production"
+            return "Not pushed bundle in production"
+          }
+        } else {
+          sh "yarn build-apk"
+        }
+      }
+    }
+
+    stage('Archive') {
+      urlArtifact = externalMethod.shell("exptool url:artifact")
+      sh "curl -o ./docdok-${env.EXP_ENV}.apk $urlArtifact"
+      String endpoint = 'https://nexus3.ocroute.e-medicus.tech/repository/docdok-binaries/'
+      sh "curl -u '$NEXUS_U:$NEXUS_P' --upload-file docdok-${env.EXP_ENV}.apk $endpoint"
+    }
+
+    stage('Deploy') {
+      if(env.EXP_ENV == 'production') {
+        androidApkUpload googleCredentialsId: 'jenkins',
+          apkFilesPattern: '*.apk',
+          trackName: "beta"
+      } else {
+        echo "No push to Play Store in this environment"
+      }
+    }
+
+
+    stage('Notify') {
+      sh "yarn expo:logout"
+      return externalMethod.notifyTeam(
+          "New mobile Android app build: <br/><a href='https://$NEXUS_U:$NEXUS_P@nexus3.ocroute.e-medicus.tech/repository/docdok-binaries/docdok-${env.EXP_ENV}.apk'>Download APK</a>",
+          env.EXP_ENV,
+          env.EXP_USERNAME,
+          env.BUILD_NUMBER,
+          false
+        )
+    }
+  }
+}

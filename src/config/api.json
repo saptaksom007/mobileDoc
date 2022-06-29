@@ -1,0 +1,50 @@
+{
+  "it": {
+    "auth": "auth-it.dev.docdok.ch",
+    "api": "it.dev.docdok.ch",
+    "apm": {
+      "project": "mobile-it",
+      "publicDSN": "https://3de5c3d0e88d40da95eb23226d4de306@sentry.io/167910"
+    }
+  },
+  "qa": {
+    "auth": "auth-qa.dev.docdok.ch",
+    "api": "qa.dev.docdok.ch",
+    "apm": {
+      "project": "mobile-qa",
+      "publicDSN": "https://ffe0122565134d86811a97e26d4ded46@sentry.io/169727"
+    }
+  },
+  "stage": {
+    "auth": "auth-stage.docdok.ch",
+    "api": "stage.docdok.ch",
+    "apm": {
+      "project": "mobile-production",
+      "publicDSN": "https://a673190c60b14afb8b9d36b343e6e0e3@sentry.io/227803"
+    }
+  },
+  "production": {
+    "auth": "auth-web.docdok.ch",
+    "api": "web.docdok.ch",
+    "apm": {
+      "project": "mobile-production",
+      "publicDSN": "https://a673190c60b14afb8b9d36b343e6e0e3@sentry.io/227803"
+    }
+  },
+  "demo1": {
+    "auth": "auth-demo1.dev.docdok.ch",
+    "api": "demo1.dev.docdok.ch",
+    "apm": {
+      "project": "mobile-qa",
+      "publicDSN": "https://ffe0122565134d86811a97e26d4ded46@sentry.io/169727"
+    }
+  },
+  "demo2": {
+    "auth": "auth-demo2.dev.docdok.ch",
+    "api": "demo2.dev.docdok.ch",
+    "apm": {
+      "project": "mobile-qa",
+      "publicDSN": "https://ffe0122565134d86811a97e26d4ded46@sentry.io/169727"
+    }
+  }
+}

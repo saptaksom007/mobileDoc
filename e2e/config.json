@@ -1,0 +1,5 @@
+{
+  "setupFilesAfterEnv": ["<rootDir>/init.js"],
+  "testRegex": ".*\\.spec\\.js$",
+  "testEnvironment": "node"
+}

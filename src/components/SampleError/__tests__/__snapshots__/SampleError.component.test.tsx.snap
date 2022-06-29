@@ -1,0 +1,83 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<SampleError/> render correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "backgroundColor": "#fff",
+      "flex": 1,
+      "justifyContent": "space-around",
+      "padding": 15,
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontFamily": "TitilliumWeb-SemiBold",
+          "fontSize": 25,
+          "lineHeight": 30,
+        },
+        Object {
+          "color": "#d9534f",
+          "textAlign": "center",
+        },
+      ]
+    }
+  >
+    error.default
+  </Text>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View>
+      <Text
+        allowFontScaling={false}
+        ellipsizeMode="tail"
+        style={
+          Array [
+            Object {
+              "fontFamily": "TitilliumWeb-Regular",
+              "fontSize": 17.5,
+              "lineHeight": 22,
+              "overflow": "visible",
+            },
+            Object {
+              "color": "rgba(27, 106, 158, 0.85)",
+              "fontSize": 16.875,
+              "lineHeight": 20,
+            },
+            undefined,
+          ]
+        }
+      >
+        global.refresh
+      </Text>
+    </View>
+  </View>
+</View>
+`;

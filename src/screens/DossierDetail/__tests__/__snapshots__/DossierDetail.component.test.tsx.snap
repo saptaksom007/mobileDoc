@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<DossierDetail/> render correctly 1`] = `
+<RCTScrollView
+  contentContainerStyle={
+    Object {
+      "height": 1067.2,
+      "marginBottom": 15,
+    }
+  }
+>
+  <View />
+</RCTScrollView>
+`;

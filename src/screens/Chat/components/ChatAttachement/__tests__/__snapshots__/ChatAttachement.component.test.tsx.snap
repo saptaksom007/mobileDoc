@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Chat/> render correctly 1`] = `
+<View
+  style={
+    Object {
+      "borderRadius": 13,
+      "flex": 1,
+      "maxHeight": 100,
+      "minWidth": 200,
+      "padding": 3,
+    }
+  }
+>
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "rgba(255,255,255,0.4)",
+        "borderRadius": 13,
+        "flex": 1,
+        "height": 100,
+        "justifyContent": "center",
+        "left": 3,
+        "position": "absolute",
+        "top": 3,
+        "width": "100%",
+        "zIndex": 3,
+      }
+    }
+  />
+  <View
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "rgba(255,255,255,0.4)",
+          "borderRadius": 13,
+          "height": 100,
+          "justifyContent": "center",
+          "minWidth": 200,
+          "padding": 7,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#fff",
+              "flex": 1,
+              "justifyContent": "center",
+            },
+            Object {
+              "backgroundColor": "transparent",
+            },
+          ]
+        }
+      >
+        <ActivityIndicator
+          animating={true}
+          color="#888"
+          hidesWhenStopped={true}
+          size="large"
+        />
+        <Text
+          allowFontScaling={false}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "fontFamily": "TitilliumWeb-Regular",
+                "fontSize": 17.5,
+                "lineHeight": 22,
+                "overflow": "visible",
+              },
+              Object {
+                "color": "rgba(27, 106, 158, 0.85)",
+                "fontSize": 15,
+                "lineHeight": 18,
+              },
+              undefined,
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

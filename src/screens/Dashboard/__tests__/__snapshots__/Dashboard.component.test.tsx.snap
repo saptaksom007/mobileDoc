@@ -1,0 +1,459 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dashboard/> render correctly 1`] = `
+Array [
+  <RCTScrollView
+    accessibilityLabel="dashboard"
+    contentContainerStyle={
+      Object {
+        "flex": 1,
+        "justifyContent": "space-evenly",
+        "marginBottom": 50,
+      }
+    }
+    testID="dashboard"
+  >
+    <View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 37.5,
+          }
+        }
+      >
+        <Box
+          badgeNumber={0}
+          color="#8950b7"
+          name="event"
+          nextRoute={[Function]}
+          testID="dashboard-nav-appointment"
+        />
+        <Box
+          badgeNumber={0}
+          color="#1a7dae"
+          locked={true}
+          name="question-answer"
+          nextRoute={[Function]}
+          testID="dashboard-nav-conversation"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 37.5,
+          }
+        }
+      >
+        <Box
+          color="#fba81f"
+          locked={true}
+          name="stacked-line-chart"
+          nextRoute={[Function]}
+          testID="dashboard-nav-survey"
+        />
+        <Box
+          badgeNumber={0}
+          color="#27debe"
+          locked={true}
+          name="description"
+          nextRoute={[Function]}
+          testID="dashboard-nav-dossier"
+        />
+      </View>
+      <View
+        style={
+          Object {
+            "flexDirection": "row",
+            "justifyContent": "space-between",
+            "paddingHorizontal": 37.5,
+          }
+        }
+      >
+        <Box
+          color="#2a6df7"
+          locked={true}
+          name="escalator-warning"
+          nextRoute={[Function]}
+          testID="dashboard-nav-dossier"
+        />
+        <Box
+          color="#f37a9e"
+          locked={true}
+          name="officehours"
+          nextRoute={[Function]}
+          testID="dashboard-nav-availability"
+        />
+      </View>
+    </View>
+  </RCTScrollView>,
+  <View
+    pointerEvents="box-none"
+    style={
+      Object {
+        "backgroundColor": "transparent",
+        "bottom": 0,
+        "elevation": 0,
+        "left": 0,
+        "position": "absolute",
+        "right": 0,
+        "top": 0,
+        "zIndex": 0,
+      }
+    }
+  >
+    <View
+      pointerEvents="box-none"
+      style={
+        Object {
+          "alignItems": "flex-end",
+          "bottom": 94,
+          "opacity": 0,
+          "position": "absolute",
+          "right": -1000,
+          "zIndex": 10,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "elevation": 0,
+            "flex": 1,
+            "flexDirection": "column",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "elevation": 0,
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 5,
+              "paddingBottom": 8,
+              "paddingLeft": 0,
+              "paddingRight": 38,
+              "paddingTop": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#feffff",
+                  "marginRight": 4,
+                }
+              }
+            >
+              appointmentslist.subtitle
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "elevation": 0,
+            "flex": 1,
+            "flexDirection": "column",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "elevation": 0,
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 5,
+              "paddingBottom": 8,
+              "paddingLeft": 0,
+              "paddingRight": 38,
+              "paddingTop": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#feffff",
+                  "marginRight": 4,
+                }
+              }
+            >
+              exercise
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "elevation": 0,
+            "flex": 1,
+            "flexDirection": "column",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "elevation": 0,
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 5,
+              "paddingBottom": 8,
+              "paddingLeft": 0,
+              "paddingRight": 38,
+              "paddingTop": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#feffff",
+                  "marginRight": 4,
+                }
+              }
+            >
+              nutrition
+            </Text>
+          </View>
+        </View>
+      </View>
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "elevation": 0,
+            "flex": 1,
+            "flexDirection": "column",
+            "opacity": 1,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "elevation": 0,
+              "flex": 1,
+              "flexDirection": "row",
+              "marginBottom": 5,
+              "paddingBottom": 8,
+              "paddingLeft": 0,
+              "paddingRight": 38,
+              "paddingTop": 8,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "flexDirection": "row",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "#feffff",
+                  "marginRight": 4,
+                }
+              }
+            >
+              activity
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      accessibilityLabel="Floating Action Button"
+      accessible={true}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#4C748c",
+          "borderRadius": 28,
+          "bottom": 30,
+          "elevation": 5,
+          "height": 56,
+          "justifyContent": "center",
+          "opacity": 1,
+          "overflow": "visible",
+          "position": "absolute",
+          "right": 30,
+          "shadowColor": "#000000",
+          "shadowOffset": Object {
+            "height": 5,
+            "width": 0,
+          },
+          "shadowOpacity": 0.35,
+          "shadowRadius": 3,
+          "transform": Array [
+            Object {
+              "rotate": "0deg",
+            },
+            Object {
+              "scale": 1,
+            },
+          ],
+          "width": 56,
+          "zIndex": 2,
+        }
+      }
+    >
+      <View
+        accessible={true}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "borderRadius": 28,
+            "height": 56,
+            "justifyContent": "center",
+            "opacity": 1,
+            "width": 56,
+            "zIndex": 3,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "alignItems": "center",
+              "borderRadius": 28,
+              "flex": 1,
+              "height": 56,
+              "justifyContent": "center",
+              "transform": Array [
+                Object {
+                  "rotate": "0deg",
+                },
+              ],
+              "width": 56,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "justifyContent": "center",
+              }
+            }
+          >
+            <View
+              style={
+                Array [
+                  Object {
+                    "position": "absolute",
+                    "width": 2,
+                  },
+                  Object {
+                    "backgroundColor": "#fff",
+                    "height": 15,
+                  },
+                ]
+              }
+            />
+            <View
+              style={
+                Array [
+                  Object {
+                    "height": 2,
+                    "position": "absolute",
+                  },
+                  Object {
+                    "backgroundColor": "#fff",
+                    "width": 15,
+                  },
+                ]
+              }
+            />
+          </View>
+        </View>
+      </View>
+    </View>
+  </View>,
+]
+`;

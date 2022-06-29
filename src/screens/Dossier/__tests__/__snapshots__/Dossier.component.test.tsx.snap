@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Dossier/> render correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "height": 1294,
+      "justifyContent": "center",
+    }
+  }
+>
+  <Text
+    allowFontScaling={false}
+    ellipsizeMode="tail"
+    onPress={[Function]}
+    style={
+      Array [
+        Object {
+          "fontFamily": "TitilliumWeb-Regular",
+          "fontSize": 17.5,
+          "lineHeight": 22,
+          "overflow": "visible",
+        },
+        Object {
+          "color": "rgba(27, 106, 158, 0.85)",
+          "fontSize": 17.5,
+          "lineHeight": 21,
+        },
+        Object {
+          "color": "#999",
+          "marginTop": -40,
+        },
+      ]
+    }
+  >
+    global.empty
+  </Text>
+</View>
+`;
